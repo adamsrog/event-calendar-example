@@ -1,7 +1,20 @@
-
 <div class="container">
-	<h2 id="title">ember-cli-event-calendar</h2>
-	<span>by <a href="https://github.com/adamsrog" target="_blank">Roger Adams</a> / <small><a href="https://twttier.com/rogdev" target="_blank">@rogdev<a/></small></span>
+	<div class="row">
+		<div class="col-md-6">
+			<h2 id="title">ember-cli-event-calendar</h2>
+			<span>by <a href="https://github.com/adamsrog" target="_blank">Roger Adams</a> / <small><a href="https://twttier.com/rogdev" target="_blank">@rogdev</a></small></span>
+		</div>
+		<div class="col-md-6">
+			<h4><span class="pull-right"><a href="https://www.npmjs.com/package/ember-cli-event-calendar" target="_blank">npm</a></span></h4><br>
+			<h4><span class="pull-right"><a href="https://github.com/adamsrog/ember-cli-event-calendar" target="_blank">github</a></span></h4>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<p>This is an example of the ember-cli-event-calendar addon. Using <a href="https://github.com/emberjs/ember-inspector" target="_blank">Ember Inspector</a>, inspect the computed property eventData on the ApplicationController.  The events are being generated using <a href="http://momentjs.com" target="_blank">moment.js</a> for demonstration purposes. However, you can wire it up to use calendar APIs such as <a href="https://developers.google.com/google-apps/calendar/" target="_blank">Google Calendar API</a>. The source for this example app can be found on <a href="https://github.com/adamsrog/event-calendar-example" target="_blank">GitHub</a>.</p>
+		<p>There are various parameters that can be used to customize the calendar. See the <a href="https://github.com/adamsrog/ember-cli-event-calendar" target="_blank">README</a> for more information and default settings.</p>
+		<pre>\{{event-calendar jsonData=eventData}}</pre>
+	</div>
 	<hr>
 	<div class="row">
 		<div class="col-md-2"></div>
@@ -9,6 +22,10 @@
 			{{event-calendar jsonData=eventData}}
 		</div>
 		<div class="col-md-2"></div>
+	</div>
+	<hr>
+	<div class="row">
+		<p>jQueryEventCalendar is made by <a href="https://twitter.com/vissit">Jaime Fernández</a>.</p>
 	</div>
 </div>
 
