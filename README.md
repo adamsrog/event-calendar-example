@@ -1,7 +1,8 @@
 # Event-calendar-example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An app to demonstrate the usage of ember-cli-event-calendar addon.
+
+View live version at: [http://rogerada.ms/ember-cli-event-calendar](http://rogerada.ms/ember-cli-event-calendar)
 
 ## Prerequisites
 
