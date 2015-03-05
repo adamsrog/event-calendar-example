@@ -18,6 +18,16 @@ module.exports = function(environment) {
       // when it is created
     },
 
+    contentSecurityPolicy: {
+      'default-src': "'none'",
+      'script-src': "'self' 'unsafe-inline' 'unsafe-eval' 'google-analytics.com'",
+      'font-src': "'self'",
+      'connect-src': "'self'",
+      'img-src': "'self' *",
+      'style-src': "'self' 'unsafe-inline'",
+      'report-uri': "'none'"
+    },
+    
     googleAnalytics: { 
       webPropertyId: 'UA-60397144-1'
     }
