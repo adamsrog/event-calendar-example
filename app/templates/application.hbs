@@ -1,5 +1,15 @@
-<h2 id="title">Welcome to Ember.js</h2>
+
+<div class="container">
+	<h2 id="title">ember-cli-event-calendar</h2>
+	<span>by <a href="https://github.com/adamsrog" target="_blank">Roger Adams</a> / <small><a href="https://twttier.com/rogdev" target="_blank">@rogdev<a/></small></span>
+	<hr>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			{{event-calendar jsonData=eventData}}
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+</div>
 
 {{outlet}}
-
-{{event-calendar jsonData=eventData}}
